@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    max-width: 800px;
+    background-color: olivedrab;
+}
+header {
+    position: static;
+    padding: 1%;
+    background-color: orange;
+    width: 98%;
+    box-shadow: 0 4px 4px 0 rgba(255, 0, 0, 1);
+}
+
+nav a {
+    padding: 0 12%;
+    color: brown;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section {
+    min-height: 600px;
+    padding: 40px;
+
+}
+
+#deel1 {
+    background-color: indianred;
+}
+
+#deel2 {
+    background-color: palegoldenrod;
+}
+
+#deel4 {
+    background-color: cadetblue;
+}
+
+
+h1 {
+    padding: 20px;
+    background-color: darkcyan;
+    color: darkcyan;
+    margin: 0;
+    text-align: center;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E3E1E1', endColorstr='#CCCACA'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#E3E1E1), to(#CCCACA)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #E3E1E1, #CCCACA); /* for firefox 3.6+ */
+}
+
+.large {
+    font-size: 22px;
+}
+
+.orange {
+    color: orange;
+}
+
+.italic {
+    font-style: italic
+}
+
+.textmiddle {
+    vertical-align: middle;
+}
+
+.padout {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.rounded-corners {
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -khtml-border-radius: 40px;
+    border-radius: 40px;
+}
+
+.rounded-corners-top {
+    -moz-border-top-radius: 40px;
+    -webkit-border-radius: 40px;
+    -khtml-border-radius: 40px;
+    border-radius: 40px;
+}
+
+h2 {
+    font-size: 22px;
+    text-align: center;
+    color: green;
+    background-color: green;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -khtml-border-radius: 40px;
+    border-radius: 40px;
+    text-shadow: #9E9B9B 2px 2px 2px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E3E1E1', endColorstr='#CCCACA'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#E3E1E1), to(#CCCACA)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #E3E1E1, #CCCACA); /* for firefox 3.6+ */
+}
+
+p {
+    margin: 20px !important;
+    font-size: 24px;
+    color: #000000;
+}
+
+.scrolldown {
+    padding-left: 20px;
+    color: #EDECE8;
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-shadow: #6374AB 2px 2px 2px;
+}
+
+#page-wrap {
+    border: 5px solid gold;
+    margin: 1px 50% ;
+    width: auto;
+    display: inline-block;
+}
+
+
+#parallax {
+    position: relative;
+    overflow: hidden;
+    width: 950px;
+    height: 250px;
+    background-image: url('../images/hyperborea.jpg');
+}
+
+.parallax-viewport {
+    position: relative; /* relative, absolute, fixed */
+    overflow: hidden;
+}
+
+.parallax-layer {
+    position: absolute;
+}

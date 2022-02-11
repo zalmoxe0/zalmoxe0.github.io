@@ -1,0 +1,11 @@
+#parallax-header { 
+	height:200px; background-color:darkgoldenrod;
+ }
+.parallax-viewport {
+	position: relative;     /* relative, absolute, fixed */
+	overflow: hidden;
+}
+.parallax-layer {
+	position: absolute;
+}
+
